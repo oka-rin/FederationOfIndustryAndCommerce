@@ -1,0 +1,79 @@
+.post-top {
+		flex-direction: row;
+		align-items: center;
+		display: flex;
+		height: 90upx;
+		width: 94%;
+		padding: 0 3%;
+		justify-content: space-between;
+	}
+
+	.post-button {
+		border-radius: 20px;
+		text-align: center;
+		height: 25px;
+		background-color: #FF0000;
+		color: #FFFFFF;
+		line-height: 25px;
+		padding: 0 5px 0 5px;
+		font-size: 15px;
+		margin-left: 10px;
+	}
+
+	.post-intermediate {
+		width: 706upx;
+		padding: 0 22upx 40upx 22upx;
+		background-color: #FFFFFF;
+		
+	}
+
+	.post-title {
+		width: 100%;
+		margin-top: 20upx;
+		line-height: 60upx;
+		text-align: center;
+		font-size: 40upx;
+		color: #FF0000;
+		flex-wrap: wrap;
+	}
+
+	.post-block {
+		flex-direction: row;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 10px;
+		width: 707upx;
+		border-top: #FF0000 solid 1upx;
+		border-left: #FF0000 solid 1upx;
+		font-size: 30upx;
+	}
+
+	.post-item {
+		border-bottom: #FF0000 solid 1upx;
+		border-right: #FF0000 solid 1upx;
+
+	}
+	.post-approval{
+		background-color: #007AFF;
+		border-radius: 8upx;
+		padding:15upx 20upx;
+		margin-top: 10upx;
+		color: #FFFFFF;
+		width: 110upx;
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+	}
+	
+	.post-bottom{
+		background-color: #EEEEED;
+		width: 100%;
+		padding-bottom: 30upx;
+	}
+	.post-bottom-flex-row{
+		background-color: #FFFFFF;
+		justify-content: space-between;
+		display: flex;
+		padding:22upx 10%;
+		height: 100upx;
+	}

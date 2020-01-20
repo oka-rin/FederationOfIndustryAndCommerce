@@ -1,0 +1,36 @@
+.tab-box {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100rpx;
+  background: #fff;
+  font-size: 32rpx;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+.tab-box .active {
+  color: #007AFF;
+}
+.tab-box .horizontal {
+  width: 100%;
+}
+.tab-box .horizontal .item {
+  display: inline-block;
+  text-align: center;
+  padding: 0 30rpx;
+  height: 92rpx;
+  line-height: 100rpx;
+}
+.tab-box .horizontal .underline {
+  height: 8rpx;
+  background-color: #007AFF;
+  border-radius: 3px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+

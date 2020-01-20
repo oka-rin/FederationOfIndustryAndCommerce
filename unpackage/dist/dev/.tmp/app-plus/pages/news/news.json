@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "消息",
+  "disableScroll": true,
+  "bounce": "none",
+  "usingComponents": {
+    "sun-tab": "/components/sun-tab/sun-tab",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "sib-list": "/components/sib-list/sib-list"
+  }
+}

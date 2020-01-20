@@ -1,0 +1,89 @@
+.me-block{
+	background: #007AFF;
+	height: 140px;
+	border-radius: 0 0 15px 15px;
+}
+.me-row{
+	display: flex;
+	flex-direction: row;
+	width: 94%;
+	height: 100upx;
+	padding: 3%;
+}
+.me-avatar-ico{
+	width: 120upx;
+	height: 120upx;
+	border-radius: 50%;
+	border-style:solid;
+	border-width:1upx;
+	border-color:#FFFFFF;
+	flex-shrink: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.me-item-column{
+	width: 30%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.me-item-tx{
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.me-name{
+	color: #FFFFFF;
+	font-size: 24px;
+	margin-top: 3px;
+}
+
+.me-name-details{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	color: #dbdbdb;
+
+	font-size: 12px;
+}
+.me-ico{
+	width: 20px;
+	flex-shrink: 0;
+}
+.me-block-tow{
+	background-color: #FFFFFF;
+	position: fixed; 
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	z-index: 999;
+	width: 94%;
+	height: 110px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.me-item-height{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 50px;
+}
+.me-block-three-item{
+
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.me-block-three{
+	width: 94%;
+	background-color: #FFFFFF;
+	padding: 0 3% 0 3%;
+}

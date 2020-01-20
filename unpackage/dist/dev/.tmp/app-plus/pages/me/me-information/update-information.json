@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "基本信息",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "index": 1,
+        "text": "保存",
+        "fontSize": "14",
+        "float": "right",
+        "color": "#fff"
+      }
+    ]
+  },
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address",
+    "switchc": "/components/zz-switchc/zz-switchc"
+  }
+}

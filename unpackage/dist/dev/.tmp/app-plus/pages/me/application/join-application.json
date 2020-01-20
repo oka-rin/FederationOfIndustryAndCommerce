@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "入会申请记录",
+  "usingComponents": {
+    "sun-tab": "/components/sun-tab/sun-tab"
+  }
+}

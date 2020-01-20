@@ -1,0 +1,146 @@
+
+.title-block {
+	background-color: #FFFFFF;
+	width: 94%;
+	padding: 3%;
+	font-size: 15px;
+}
+.input-text {
+	color: #C0C0C0;
+}
+.appeal-details {
+	margin-top: 15px;
+	padding: 0 3%;
+	width: 94%;
+	background-color: #FFFFFF;
+}
+.cfm-enterprise-fg {
+	width: 100%;
+	height: 1rpx;
+	background-color: #E6E6E6;
+}
+
+/* 上传出片 */
+.tui-container {
+	width: 100%;
+	height: 100%;
+}
+.tui-upload-box {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	/* justify-content: space-between; */
+}
+.tui-upload-add {
+	width: 103px;
+	height: 103px;
+	border-width: 1rpx;
+	border-style: solid;
+	border-color: #C0C0C0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	border-radius: 3px;
+	margin: 3px;
+}
+.tui-item-img {
+	width: 103px;
+	height: 103px;
+	border-width: 1rpx;
+	border-style: solid;
+	border-color: #eeeeee;
+	border-radius: 3px;
+}
+.tui-image-item {
+	padding: 3px;
+	position: relative;
+}
+.tui-upload-icon {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 10px;
+}
+.tui-outer-block {
+	position: absolute;
+	z-index: 200;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.out-block {
+	height: 55px;
+	margin-top: 30px;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	background-color: #FFFFFF;
+}
+.new-join-cfm {
+	background-color: #007AFF;
+	height: 42px;
+	line-height: 42px;
+	color: #FFFFFF;
+	width: 230px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+/* 文字 */
+.add-appeal-tx{
+	text-align: right;width: 100%;font-weight: bold;
+}
+

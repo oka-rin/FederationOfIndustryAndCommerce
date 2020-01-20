@@ -1,0 +1,1 @@
+<view class="page"><view class="qa-details-buju"><text class="qa-details-title">{{qaDetails.question}}</text><view class="flex-row"><text class="qa-details-time">{{"回答者："+qaDetails.inputman}}</text><text class="qa-details-time" style="margin-left:10px;">{{inputdate}}</text></view><rich-text nodes="{{qaDetails.contents}}"></rich-text></view></view>

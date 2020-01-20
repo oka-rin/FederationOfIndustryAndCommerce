@@ -1,0 +1,29 @@
+
+.qa-details-buju{
+	padding: 15px;
+	background-color: #FFFFFF;
+}
+.qa-details-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 800;
+}
+.qa-details-time{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	color: #999999;
+	font-size: 12px;
+	padding: 16px 0 12px 0;
+}
+.qa-details-tx{
+	font-size: 14px;
+	color: #000000;
+}
+

@@ -1,0 +1,407 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"h5": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/news/more-news",
+
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/push-details/pushdetails",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		}, {
+			"path": "pages/more-push/push-list",
+			"style": {
+				"navigationBarTitleText": "政策推送",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/scan/scan",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"h5": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}
+
+		, {
+			"path": "pages/scan/regulations",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"searchInput": {
+							"align": "left",
+							"placeholder": "请输入搜索信息",
+							"borderRadius": "50upx",
+							"backgroundColor": "#fff"
+						}
+
+					}
+				}
+			}
+		}, {
+			"path": "pages/text01/text01",
+			"style": {}
+		}, {
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"disableScroll": true, // 禁止滚动, 解决scroll-view在Android小程序卡顿的问题
+				"app-plus": {
+					"bounce": "none" // 取消iOS回弹,避免和下拉刷新冲突 (小程序无法取消, 点此查看H5端的取消方法... )
+				}
+			}
+		}, {
+			"path": "pages/news/news-details",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/me/setup/setup",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			}
+		}, {
+			"path": "pages/registered/register",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		}, {
+			"path": "pages/join-chamberofcommerce/more-chamberofcommerce",
+			"style": {
+				"navigationBarTitleText": "加入商会",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/join-chamberofcommerce/chamberofcommerce-details",
+			"style": {
+				"navigationBarTitleText": "商会详情"
+			}
+		}, {
+			"path": "pages/join-chamberofcommerce/join-chamberofcommerce",
+			"style": {
+				"navigationBarTitleText": "加入商会"
+			}
+		}, {
+			"path": "pages/join-chamberofcommerce/join-cfm-enterprise",
+			"style": {
+				"navigationBarTitleText": "加入商会"
+			}
+		}, {
+			"path": "pages/join-chamberofcommerce/if-join-report",
+			"style": {
+				"navigationBarTitleText": "加入商会"
+			}
+		}, {
+			"path": "pages/join-chamberofcommerce/join-cfm-personal",
+			"style": {
+				"navigationBarTitleText": "加入商会"
+			}
+		}, {
+			"path": "pages/join-chamberofcommerce/join-cfm-member",
+			"style": {
+				"navigationBarTitleText": "加入商会"
+			}
+		}, {
+			"path": "pages/my-cfm-news/charter",
+			"style": {
+				"navigationBarTitleText": "工商联章程"
+			}
+		}, {
+			"path": "pages/my-cfm-news/Introduction",
+			"style": {
+				"navigationBarTitleText": "工商联简介"
+			}
+		}, {
+			"path": "pages/my-cfm-news/needToKnow",
+			"style": {
+				"navigationBarTitleText": "入会须知"
+			}
+		}, {
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "民企服务"
+			}
+		}, {
+			"path": "pages/communication/communication",
+			"style": {
+				"navigationBarTitleText": "交流"
+			}
+		}, {
+			"path": "pages/me/application/join-application",
+			"style": {
+				"navigationBarTitleText": "入会申请记录"
+			}
+		}, {
+			"path": "pages/me/me-enterprise/me-enterprise",
+			"style": {
+				"navigationBarTitleText": "基本信息",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+								"index":0,
+								"text": "编辑",
+								"fontSize": "14",
+								"float": "right",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/me/me-information/me-information",
+			"style": {
+				"navigationBarTitleText": "基本信息",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+								"index":1,
+								"text": "编辑",
+								"fontSrc":"./static/icos/eye.png",
+								"fontSize": "14",
+								"float": "right",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/me/me-enterprise/update-enterprise",
+			"style": {
+				"navigationBarTitleText": "基本信息",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+								"index":0,
+								"text": "保存",
+								"fontSize": "14",
+								"float": "right",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/me/me-information/update-information",
+			"style": {
+				"navigationBarTitleText": "基本信息",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+								"index":1,
+								"text": "保存",
+								"fontSize": "14",
+								"float": "right",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/me/mailbox/mailbox",
+            "style" : {
+				"navigationBarTitleText": "联系信箱"
+			}
+        }
+        ,{
+            "path" : "pages/me/appeal/appeal",
+            "style" : {
+				"navigationBarTitleText":"诉求建言"
+				
+			}
+        }
+        ,{
+            "path" : "pages/me/appeal/add-appeal",
+            "style" : {
+				"navigationBarTitleText":"新建诉求"
+			}
+        }
+        ,{
+            "path" : "pages/cloud-disk/cloud-disk",
+            "style" : {
+				"navigationBarTitleText":"我的云盘"
+			}
+        }
+        ,{
+            "path" : "pages/q-a/q-a",
+            "style" : {
+				"navigationBarTitleText":"知识问答库",
+				"enablePullDownRefresh":true,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+								"index":1,
+								"text": "我的问答",
+								"fontSize": "16",
+								"float": "right",
+								"color": "#fff"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/q-a/q-a-details",
+            "style" : {
+				"navigationBarTitleText":"详情"
+			}
+        }
+        ,{
+            "path" : "pages/more-push/push-search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cloud-disk/search-disk",
+            "style" : {
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"h5": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/cloud-disk/share-disk",
+            "style" : {
+				"navigationBarTitleText":"选择分享用户"
+			}
+        }
+        ,{
+            "path" : "pages/index/gslDetails",
+            "style" : {
+				"navigationBarTitleText":"工商联详情"
+			}
+        }
+        ,{
+            "path" : "pages/post-collaboration/post-signature",
+            "style" : {
+				"navigationBarTitleText":"发文详情"
+			}
+        }
+        ,{
+            "path" : "pages/post-collaboration/post-foreign",
+            "style" : {
+				"navigationBarTitleText":"发文详情"
+			}
+        }
+        ,{
+            "path" : "pages/post-collaboration/post-internal",
+            "style" : {
+				"navigationBarTitleText":"发文详情"
+			}
+        }
+        ,{
+            "path" : "pages/schedule/schedule",
+            "style" : {
+				"navigationBarTitleText":"日程安排"
+			}
+        }
+        ,{
+            "path" : "pages/statistics/statistics",
+            "style" : {
+				"navigationBarTitleText":"工作统计"
+			}
+        }
+        ,{
+            "path" : "pages/sms/sms",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/me/appeal/appeal-details",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/me/appeal/appeal-score",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#007AFF",
+		"backgroundColor": "#FFFFFF",
+		"iconWidth": "24px",
+		"fontSize": "12px",
+		"spacing": "3px",
+		"height": "54px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home-x.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/service/service",
+				"iconPath": "static/tabBar/service.png",
+				"selectedIconPath": "static/tabBar/service-x.png",
+				"text": "服务"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"iconPath": "static/tabBar/new.png",
+				"selectedIconPath": "static/tabBar/new-x.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/communication/communication",
+				"iconPath": "static/tabBar/qun.png",
+				"selectedIconPath": "static/tabBar/qun-x.png",
+				"text": "交流"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/tabBar/me.png",
+				"selectedIconPath": "static/tabBar/me-x.png",
+				"text": "我的"
+			}
+		]
+	}
+}

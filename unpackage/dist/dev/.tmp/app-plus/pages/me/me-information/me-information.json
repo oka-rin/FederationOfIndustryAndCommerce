@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "基本信息",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "index": 1,
+        "text": "编辑",
+        "fontSrc": "./static/icos/eye.png",
+        "fontSize": "14",
+        "float": "right",
+        "color": "#fff"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

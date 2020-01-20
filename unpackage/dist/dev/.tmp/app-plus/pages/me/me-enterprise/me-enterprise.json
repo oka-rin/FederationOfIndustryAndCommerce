@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "基本信息",
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "index": 0,
+        "text": "编辑",
+        "fontSize": "14",
+        "float": "right",
+        "color": "#fff"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

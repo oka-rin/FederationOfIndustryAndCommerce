@@ -1,0 +1,150 @@
+
+.scan-it{
+	padding-top:10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 10%;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.scan-it-text{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 60rpx;
+	border-radius: 10px;
+	color: #FFFFFF;
+	background-color: #000000;
+	font-size: 14px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+	line-height: 60rpx;
+}
+.scan-ico{
+	width: 50rpx;
+	height: 50rpx;
+}
+/* 扫一扫结束 */
+/* 搜索栏样式
+ 在主轴进行居中排布  justify-content
+ center居中对其 flex-start左对齐 flex-end右对齐  space-between两端对其 space-
+ padding:上 右 下 左
+ position: fixed;显示在最上面
+ */
+.search-height{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	height: 90rpx;
+	width:98%; 
+	background-color: #007AFF;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 25px 2% 0 2%;
+}
+.search-ico {
+	width: 40rpx;
+	height: 40rpx;
+}
+.search-text {
+	font-size: 14px;
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+.search-block{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	width: 72%;
+	height: 75rpx;
+	background-color: #F8F8F8;
+	margin-bottom: 0rpx;
+}
+.search-ico-wapper {
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding:0rpx 10rpx;
+}
+.lunbo-column{
+	width: 750rpx;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position:absolute; 
+	z-index:200; 
+	left:0px; 
+	top: 0px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.lunbo-tx{
+	font-size: 14px;
+	height: 44px;
+	color: #FFFFFF;
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	/* 黑色透明 */
+	background-color: rgba(0,0,0,0.6);
+	padding: 2px 2% 2px 2%;
+}
+/* 搜索栏结束 */
+.carousel{
+	width: 100%;
+	height: 150px;
+}
+.xin{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #F0AD4E;
+	width: 100%;
+	height: 40rpx;
+}
+
