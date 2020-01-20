@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "加入商会",
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address",
+    "tui-button": "/components/button/button",
+    "tui-datetime": "/components/dateTime/dateTime"
+  }
+}

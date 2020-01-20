@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/more-push/morepush",
+    "pages/push-details/pushdetails",
+    "pages/more-push/push-list",
+    "pages/scan/scan",
+    "pages/scan/regulations",
+    "pages/text01/text01",
+    "pages/news/news",
+    "pages/news/news-details",
+    "pages/me/me",
+    "pages/me/setup/setup",
+    "pages/login/login",
+    "pages/registered/register",
+    "pages/join-chamberofcommerce/more-chamberofcommerce",
+    "pages/join-chamberofcommerce/chamberofcommerce-details",
+    "pages/join-chamberofcommerce/join-chamberofcommerce",
+    "pages/join-chamberofcommerce/join-cfm-enterprise",
+    "pages/join-chamberofcommerce/if-join-report",
+    "pages/join-chamberofcommerce/join-cfm-personal",
+    "pages/join-chamberofcommerce/join-cfm-member",
+    "pages/my-cfm-news/charter",
+    "pages/my-cfm-news/Introduction",
+    "pages/my-cfm-news/needToKnow",
+    "pages/service/service",
+    "pages/communication/communication"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "iconWidth": "22px",
+    "fontSize": "12px",
+    "spacing": "3px",
+    "height": "54px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/tabBar01.png",
+        "selectedIconPath": "static/tabBar/tabBar01_x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "static/tabBar/tabBar02.png",
+        "selectedIconPath": "static/tabBar/tabBar02_x.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/tabBar/tabBar03.png",
+        "selectedIconPath": "static/tabBar/tabBar03_x.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/communication/communication",
+        "iconPath": "static/tabBar/tabBar04.png",
+        "selectedIconPath": "static/tabBar/tabBar04_x.png",
+        "text": "交流"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabBar/tabBar05.png",
+        "selectedIconPath": "static/tabBar/tabBar05_x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

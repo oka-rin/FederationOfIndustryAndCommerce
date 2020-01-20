@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "知识问答库",
+  "enablePullDownRefresh": true,
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "index": 1,
+        "text": "我的问答",
+        "fontSize": "16",
+        "float": "right",
+        "color": "#fff"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

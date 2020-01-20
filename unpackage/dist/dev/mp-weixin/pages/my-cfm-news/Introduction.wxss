@@ -1,0 +1,35 @@
+.push-details-buju {
+		padding: 15px;
+		background-color: #FFFFFF;
+}
+.push-details-title {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		color: #000000;
+		font-size: 18px;
+		font-weight: 800;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+}
+.push-details-time {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		color: #999999;
+		font-size: 12px;
+		padding: 16px 0 12px 0;
+}
+.push-details-tx {
+		font-size: 13px;
+		color: #000000;
+}
+

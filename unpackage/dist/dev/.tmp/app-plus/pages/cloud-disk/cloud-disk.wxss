@@ -1,0 +1,145 @@
+
+.news-tabtop-height {
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+.swiper-area {
+	width: 100%;
+	height: 100%;
+	background-color: #eeeeed;
+	position: -webkit-sticky;
+	position: sticky;
+	margin-top: 50px;
+}
+
+/* 搜索框 */
+.search-ico {
+	width: 40rpx;
+	height: 40rpx;
+}
+.search-text {
+	font-size: 14px;
+	height: 100%;
+	width: 100%;
+}
+.search-block {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	width: 92%;
+	height: 40px;
+	margin-bottom: 0rpx;
+	border-radius: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 4%;
+	margin-right: 4%;
+	background-color: #FFFFFF;
+}
+.search-ico-wapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 0rpx 10rpx;
+}
+
+/* 云盘边框 */
+.disk-block {
+	width: 94%;
+	background-color: #FFFFFF;
+	padding: 0 3%;
+}
+.disk-bottom {
+	height: 60px;
+	width: 100%;
+	bottom: 0;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: fixed;
+	background-color: #FFFFFF;
+	border-top: #EEEEEE solid 1px;
+}
+.disk-block-item {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 80px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.disk-fg {
+	padding: 0 3%;
+	width: 94%;
+	height: 1rpx;
+	background-color: #E6E6E6;
+}
+
+/* 底部显示 */
+.disk-bottom-chose{
+	height: 90px;
+	width: 100%;
+	bottom: 0;
+	
+	position: fixed;
+	background-color: #FFFFFF;
+	border-top: #EEEEEE solid 1px;
+}
+.disk-bottom-chose-blue{
+	background-color: #007AFF;
+	width: 94%;
+	height: 50px;
+	padding: 0px 3%;
+	color: #FFFFFF;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 12px;
+}
+

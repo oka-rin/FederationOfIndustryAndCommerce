@@ -1,0 +1,23 @@
+.register-ico{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+
+}
+
+.registerfg{
+	width: 100%;
+	height: 1upx;
+	background-color: #999999;
+}
+
+.verification{
+	line-height: 60px;
+	font-size: 14px;
+	width: 100px;
+	flex-shrink: 0;
+	text-align: right;
+	color: #999999;
+}

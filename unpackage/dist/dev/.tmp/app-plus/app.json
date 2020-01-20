@@ -1,0 +1,106 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/more-news",
+    "pages/push-details/pushdetails",
+    "pages/more-push/push-list",
+    "pages/scan/scan",
+    "pages/scan/regulations",
+    "pages/text01/text01",
+    "pages/news/news",
+    "pages/news/news-details",
+    "pages/me/me",
+    "pages/me/setup/setup",
+    "pages/login/login",
+    "pages/registered/register",
+    "pages/join-chamberofcommerce/more-chamberofcommerce",
+    "pages/join-chamberofcommerce/chamberofcommerce-details",
+    "pages/join-chamberofcommerce/join-chamberofcommerce",
+    "pages/join-chamberofcommerce/join-cfm-enterprise",
+    "pages/join-chamberofcommerce/if-join-report",
+    "pages/join-chamberofcommerce/join-cfm-personal",
+    "pages/join-chamberofcommerce/join-cfm-member",
+    "pages/my-cfm-news/charter",
+    "pages/my-cfm-news/Introduction",
+    "pages/my-cfm-news/needToKnow",
+    "pages/service/service",
+    "pages/communication/communication",
+    "pages/me/application/join-application",
+    "pages/me/me-enterprise/me-enterprise",
+    "pages/me/me-information/me-information",
+    "pages/me/me-enterprise/update-enterprise",
+    "pages/me/me-information/update-information",
+    "pages/me/mailbox/mailbox",
+    "pages/me/appeal/appeal",
+    "pages/me/appeal/add-appeal",
+    "pages/cloud-disk/cloud-disk",
+    "pages/q-a/q-a",
+    "pages/q-a/q-a-details",
+    "pages/more-push/push-search",
+    "pages/cloud-disk/search-disk",
+    "pages/cloud-disk/share-disk",
+    "pages/index/gslDetails",
+    "pages/post-collaboration/post-signature",
+    "pages/post-collaboration/post-foreign",
+    "pages/post-collaboration/post-internal",
+    "pages/schedule/schedule",
+    "pages/statistics/statistics",
+    "pages/sms/sms"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "iconWidth": "24px",
+    "fontSize": "12px",
+    "spacing": "3px",
+    "height": "54px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home-x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "iconPath": "static/tabBar/service.png",
+        "selectedIconPath": "static/tabBar/service-x.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "static/tabBar/new.png",
+        "selectedIconPath": "static/tabBar/new-x.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/communication/communication",
+        "iconPath": "static/tabBar/qun.png",
+        "selectedIconPath": "static/tabBar/qun-x.png",
+        "text": "交流"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabBar/me.png",
+        "selectedIconPath": "static/tabBar/me-x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "FederationOfIndustryAndCommerce",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}

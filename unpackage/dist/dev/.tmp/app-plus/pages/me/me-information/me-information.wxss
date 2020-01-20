@@ -1,0 +1,21 @@
+
+.me-block {
+		margin-top: 15px;
+		background-color: #FFFFFF;
+		width: 94%;
+		padding: 3%;
+}
+.tui-item-img {
+		width: 100px;
+		height: 100px;
+		border-width: 1rpx;
+		border-style: solid;
+		border-color: #eeeeee;
+		border-radius: 3px;
+		background-color: #E6E6E6;
+}
+.tui-image-item {
+		padding: 0 10px 0 0;
+		position: relative;
+}
+

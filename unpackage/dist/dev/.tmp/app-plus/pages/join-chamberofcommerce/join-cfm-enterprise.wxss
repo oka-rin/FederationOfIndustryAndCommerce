@@ -1,0 +1,405 @@
+
+.tui-datetime-picker {
+	position: relative;
+	z-index: 999;
+}
+.tui-picker-view {
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.tui-mask {
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.tui-mask-show {
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+.tui-header {
+	z-index: 9999;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-webkit-transform: translateY(100%);
+	    -ms-transform: translateY(100%);
+	        transform: translateY(100%);
+}
+.tui-show {
+	-webkit-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	        transform: translateY(0);
+}
+.tui-picker-header {
+	width: 100%;
+	height: 90rpx;
+	padding: 0 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 32rpx;
+	background: #fff;
+	position: relative;
+}
+.tui-picker-header::after {
+	content: '';
+	position: absolute;
+	border-bottom: 1rpx solid #eaeef1;
+	-webkit-transform: scaleY(0.5);
+	-ms-transform: scaleY(0.5);
+	    transform: scaleY(0.5);
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+.tui-picker-body {
+	width: 100%;
+	height: 500rpx;
+	overflow: hidden;
+	background-color: #fff;
+}
+.tui-column-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 36rpx;
+	color: #333;
+}
+.tui-text {
+	font-size: 24rpx;
+	padding-left: 8rpx;
+}
+.tui-btn-picker {
+	padding: 16rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-align: center;
+	text-decoration: none;
+}
+.tui-opacity {
+	opacity: 0.5;
+}
+
+.carousel{
+	width: 100%;
+	height: 180px;
+	border-radius: 10px;
+}
+.cfm-row{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 60px;
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	/* 黑色透明 */
+	background-color: rgba(0,0,0,0.5);
+	padding: 0 2% 0 2%;
+	flex-shrink: 0;
+	border-radius: 0 0 10px 10px;
+}
+.lunbo-column{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position:absolute; 
+	z-index:200; 
+	left:0px; 
+	top: 0px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.cfm-title{
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.cfm-description{
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.cfm-img{
+	width: 50px;
+	border-radius: 50%;
+}
+.cfm-button{
+	 
+	 background-color: #007AFF;
+	 border-radius: 20px;
+	 width: 60px;
+	 height: 25px;
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 text-align:center;
+	 margin-bottom: 13px;
+	 line-height: 25px;
+}
+.cfm-button-enterprise {
+		background-color: #007AFF;
+		border-radius: 20px;
+		width: 65px;
+		height: 25px;
+		color: #FFFFFF;
+		font-size: 12px;
+		text-align: center;
+		margin-bottom: 13px;
+		line-height: 25px;
+}
+.cfm-enterprise-row {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		width: 100%;
+		height: 60px;
+}
+.cfm-enterprise-fg {
+		width: 100%;
+		height: 1rpx;
+		background-color: #E6E6E6;
+}
+.cfm-enterprise-tx {
+		font-size: 15px;
+		color: #707070;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.cfm-enterprise-block-row {
+		-webkit-flex-shrink: 0;
+		    -ms-flex-negative: 0;
+		        flex-shrink: 0;
+		width: 65px;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		height: 100%;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+}
+.cfm-enterprise-input {
+		text-align: right;
+		font-size: 14px;
+		width: 100%;
+		line-height: 50px;
+		height: 50px;
+		color: #000000;
+		font-weight: bold;
+}
+/* 后期需要修改颜色 */
+.cfm-enterprise-input-placeholder{
+		color: #C0C0C0;
+		font-size: 15px;
+		text-align: right;
+		font-weight:100;
+}
+.button-block{
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		width: 88%;
+		height: 60px;
+		padding: 15px 6%;
+		background: #FFFFFF;
+		/* align-items: center; */
+}
+.button-gray{
+		border-style: solid;
+		border-width: 1px;
+		border-color: #DCDCDC;
+		border-radius: 10px;
+		width: 140px;
+		height: 42px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 16px;
+}
+.button-bule{
+		background-color: #007AFF;
+		border-radius: 10px;
+		color: #FFFFFF;
+		width: 140px;
+		height: 42px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 16px;
+}
+/* 上传出片 */
+.tui-container {
+		width: 100%;
+		height: 100%;
+}
+.tui-upload-box {
+		width: 96%;
+		padding: 2%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		/* justify-content: space-between; */
+}
+.tui-upload-add {
+		width: 105px;
+		height: 105px;
+		border-width: 1rpx;
+		border-style: solid;
+		border-color: #C0C0C0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		border-radius: 3px;
+		margin: 4px;
+}
+.tui-item-img {
+		width: 105px;
+		height: 105px;
+		border-width: 1rpx;
+		border-style: solid;
+		border-color: #eeeeee;
+		border-radius: 3px;
+}
+.tui-image-item {
+		padding: 4px;
+		position: relative;
+}
+.tui-upload-icon {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-top: 10px;
+}
+.tui-outer-block {
+		position: absolute;
+		z-index: 200;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: end;
+		-webkit-justify-content: flex-end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+}
+

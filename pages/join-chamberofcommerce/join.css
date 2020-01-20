@@ -1,0 +1,153 @@
+.cfm-button-enterprise {
+		background-color: #007AFF;
+		border-radius: 20px;
+		width: 65px;
+		height: 25px;
+		color: #FFFFFF;
+		font-size: 12px;
+		text-align: center;
+		margin-bottom: 13px;
+		line-height: 25px;
+	}
+
+	.cfm-enterprise-row {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		height: 60px;
+	}
+
+	.cfm-enterprise-fg {
+		width: 100%;
+		height: 1upx;
+		background-color: #E6E6E6;
+	}
+
+	.cfm-enterprise-tx {
+		font-size: 15px;
+		color: #707070;
+		flex-direction: row;
+		display: flex;
+		align-items: center;
+	}
+
+	.cfm-enterprise-block-row {
+		flex-shrink: 0;
+		width: 65px;
+		align-items: center;
+		display: flex;
+		height: 100%;
+		flex-direction: row;
+	}
+
+	.cfm-enterprise-input {
+		text-align: right;
+		font-size: 14px;
+		width: 100%;
+		line-height: 50px;
+		height: 50px;
+		color: #000000;
+		font-weight: bold;
+	}
+
+	/* 后期需要修改颜色 */
+	.cfm-enterprise-input-placeholder{
+		color: #C0C0C0;
+		font-size: 15px;
+		text-align: right;
+		font-weight:100;
+	}
+	.button-block{
+		flex-direction: row;
+		justify-content: space-between;
+		display: flex;
+		width: 88%;
+		height: 60px;
+		padding: 15px 6%;
+		background: #FFFFFF;
+		/* align-items: center; */
+	}
+	
+	.button-gray{
+		border-style: solid;
+		border-width: 1px;
+		border-color: #DCDCDC;
+		border-radius: 10px;
+		width: 140px;
+		height: 42px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 16px;
+	}
+	
+	.button-bule{
+		background-color: #007AFF;
+		border-radius: 10px;
+		color: #FFFFFF;
+		width: 140px;
+		height: 42px;
+		text-align: center;
+		line-height: 40px;
+		font-size: 16px;
+	}
+	/* 上传出片 */
+	.tui-container {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.tui-upload-box {
+		width: 96%;
+		padding: 2%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		/* justify-content: space-between; */
+	}
+	.tui-upload-add {
+		width: 105px;
+		height: 105px;
+		border-width: 1upx;
+		border-style: solid;
+		border-color: #C0C0C0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 3px;
+		margin: 4px;
+	}
+	
+	
+	.tui-item-img {
+		width: 105px;
+		height: 105px;
+		border-width: 1upx;
+		border-style: solid;
+		border-color: #eeeeee;
+		border-radius: 3px;
+	
+	}
+	.tui-image-item {
+		padding: 4px;
+		position: relative;
+		
+	}
+	
+	.tui-upload-icon {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10px;
+	}
+	
+	.tui-outer-block {
+		position: absolute;
+		z-index: 200;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}

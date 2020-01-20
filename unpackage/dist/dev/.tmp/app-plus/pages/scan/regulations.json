@@ -1,0 +1,11 @@
+{
+  "titleNView": {
+    "searchInput": {
+      "align": "left",
+      "placeholder": "请输入搜索信息",
+      "borderRadius": "50upx",
+      "backgroundColor": "#fff"
+    }
+  },
+  "usingComponents": {}
+}
